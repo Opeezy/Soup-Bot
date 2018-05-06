@@ -1,0 +1,28 @@
+{
+  "name": "soup-bot",
+  "version": "1.0.0",
+  "description": "Practicing with making Discord bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opeezy/Soup-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Opeezy/Soup-Bot/issues"
+  },
+  "homepage": "https://github.com/Opeezy/Soup-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "dotenv": "^5.0.1",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
